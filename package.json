@@ -1,0 +1,34 @@
+{
+  "name": "js-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/AnastasiiaLebediuk/aqa-advanced#readme",
+  "bugs": {
+    "url": "https://github.com/AnastasiiaLebediuk/aqa-advanced/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiiaLebediuk/aqa-advanced.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:all": "npx prettier .  --write",
+    "eslint:all": "npx eslint .",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2"
+  }
+}
